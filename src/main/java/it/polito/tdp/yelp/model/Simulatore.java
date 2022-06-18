@@ -59,7 +59,7 @@ public class Simulatore {
 			this.intervistati.add(intervistato);
 			g.incrementaNumeroIntervistati();
 			
-			this.queue.add( new Event(
+			this.queue.add( new Event( //un evento per giornalista
 					1,
 					EventType.DA_INTERVISTARE,
 					intervistato,
